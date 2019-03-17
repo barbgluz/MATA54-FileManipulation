@@ -17,7 +17,7 @@ Person get() {
 }
 
 std::vector<Person> getAll() {
-	vector<Person> people;
+	std::vector<Person> people;
 	Person a;
 	a.key = 1;
 	a.name = "Mateus";
