@@ -19,7 +19,8 @@ int main(int argc, char const *argv[])
   			save();
   			break;
   		case 'c':
-  			person = get();
+  			person = get();  			
+  			printf("chave: %i %s %i", person.key, person.name.c_str(), person.age );
   			break;
   		case 'r':
   			remove();
