@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
-#include <vector>
 #include "file.h"
 
 using namespace std;
@@ -9,7 +8,6 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	Person person;
-	vector<Person> people;
 	char command;
 	
 	scanf("%c", &command);
@@ -20,13 +18,13 @@ int main(int argc, char const *argv[])
   			break;
   		case 'c':
   			person = get();  			
-  			printf("chave: %i %s %i", person.key, person.name.c_str(), person.age );
+  			printf("chave: %i %s %i", person.key, person.name, person.age );
   			break;
   		case 'r':
   			remove();
   			break;
   		case 'p':
-  			people = getAll();
+  			getAll();
   			break;
   		case 'e':
   			exit(EXIT_SUCCESS);

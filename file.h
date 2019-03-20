@@ -1,9 +1,6 @@
-#include <vector>
-#include <string>
-
 typedef struct person {
 	unsigned int key;
-	std::string name;
+	char name[21];
 	unsigned int age;
 } Person;
 
@@ -34,4 +31,4 @@ Person get();
  * Retorna todos os registro salvos no arquivo
  *
  * */
-std::vector<Person> getAll();
+void getAll();
