@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "file.h"
 
-void save() {
+void insert() {
 	bool keyAlreadyExists = false;
 	Person oldPerson;
 	Person newPerson;

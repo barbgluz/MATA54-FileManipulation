@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
   	switch(command) {
   		case 'i':
-  			save();
+  			insert();
   			break;
   		case 'c':
   			consult();

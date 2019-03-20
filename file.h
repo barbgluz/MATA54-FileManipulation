@@ -10,7 +10,7 @@ typedef struct person {
  *
  * */
 
-void save();
+void insert();
 
 /*
  * Função remove:
