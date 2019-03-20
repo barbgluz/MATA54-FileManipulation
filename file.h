@@ -21,14 +21,14 @@ void remove();
 
 /*
  * Função get:
- * Retorna um registro na chave indicada
+ * Imprime um registro na chave indicada
  *
  * */
-Person get();
+void consult();
 
 /*
  * Função getAll:
- * Retorna todos os registro salvos no arquivo
+ * Imprime todos os registro salvos no arquivo
  *
  * */
-void getAll();
+void printAll();
