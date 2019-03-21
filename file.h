@@ -1,5 +1,5 @@
 typedef struct person {
-	unsigned int key;
+	int key;
 	char name[21];
 	unsigned int age;
 } Person;
