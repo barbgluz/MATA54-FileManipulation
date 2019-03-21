@@ -7,7 +7,9 @@ void insert() {
 	Person newPerson;
 	FILE *file;
 
-	scanf("%i %20s %i", &newPerson.key, newPerson.name, &newPerson.age);
+	scanf("%i", &newPerson.key);
+	scanf(" %[^\n]s", newPerson.name);
+	scanf("%i", &newPerson.age);
 
 	file = fopen("file.txt", "a+b");
 	fseek(file, 0 * sizeof(Person), SEEK_SET);
